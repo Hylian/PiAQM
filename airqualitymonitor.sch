@@ -259,12 +259,12 @@ CCS811_WAKEn
 $Comp
 L Device:C C3
 U 1 1 5BF1E1B3
-P 9700 4700
-F 0 "C3" H 9815 4746 50  0000 L CNN
-F 1 "4.8uF" H 9815 4655 50  0000 L CNN
-F 2 "lib_fp:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9738 4550 50  0001 C CNN
-F 3 "~" H 9700 4700 50  0001 C CNN
-	1    9700 4700
+P 8700 4700
+F 0 "C3" H 8815 4746 50  0000 L CNN
+F 1 "4.8uF" H 8815 4655 50  0000 L CNN
+F 2 "lib_fp:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8738 4550 50  0001 C CNN
+F 3 "~" H 8700 4700 50  0001 C CNN
+	1    8700 4700
 	1    0    0    -1  
 $EndComp
 Text Label 7100 4900 0    50   ~ 0
@@ -345,14 +345,14 @@ Wire Wire Line
 Connection ~ 7450 1400
 Connection ~ 6550 1400
 Wire Wire Line
-	8100 5250 9700 5250
+	8100 5250 8700 5250
 Wire Wire Line
-	9700 4850 9700 5250
+	8700 4850 8700 5250
 Connection ~ 8100 5250
 Wire Wire Line
 	8100 5250 8100 5200
 Wire Wire Line
-	9700 4100 9700 4550
+	8700 4100 8700 4550
 $Comp
 L Jumper:SolderJumper_2_Bridged JP1
 U 1 1 5BF411AC
@@ -528,45 +528,6 @@ $EndComp
 Wire Wire Line
 	3400 6850 3350 6850
 $Comp
-L Device:Thermistor_NTC TH1
-U 1 1 5BFC807D
-P 8800 4650
-F 0 "TH1" H 8897 4696 50  0000 L CNN
-F 1 "10k NTC" H 8897 4605 50  0000 L CNN
-F 2 "lib_fp:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8800 4700 50  0001 C CNN
-F 3 "~" H 8800 4700 50  0001 C CNN
-	1    8800 4650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8800 4800 8500 4800
-Wire Wire Line
-	8800 4500 8600 4500
-Connection ~ 8600 4500
-Wire Wire Line
-	8800 4800 9350 4800
-Connection ~ 8800 4800
-Wire Wire Line
-	8100 4100 9350 4100
-$Comp
-L Device:R R3
-U 1 1 5BFE5E76
-P 9350 4450
-F 0 "R3" H 9420 4496 50  0000 L CNN
-F 1 "100k" H 9420 4405 50  0000 L CNN
-F 2 "lib_fp:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9280 4450 50  0001 C CNN
-F 3 "~" H 9350 4450 50  0001 C CNN
-	1    9350 4450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9350 4600 9350 4800
-Wire Wire Line
-	9350 4300 9350 4100
-Connection ~ 9350 4100
-Wire Wire Line
-	9350 4100 9700 4100
-$Comp
 L Device:R R2
 U 1 1 5C0135AD
 P 6900 4600
@@ -616,4 +577,6 @@ Wire Wire Line
 Connection ~ 6300 4200
 Wire Wire Line
 	6300 4200 6300 4250
+Wire Wire Line
+	8100 4100 8700 4100
 $EndSCHEMATC
