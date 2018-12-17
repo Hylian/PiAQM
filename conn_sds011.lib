@@ -12,13 +12,13 @@ $FPLIST
  Connector*:*_1x??_*
 $ENDFPLIST
 DRAW
-T 0 -150 200 50 0 0 0 1um Normal 0 C C
+T 0 -150 -200 50 0 0 0 1um Normal 0 C C
 T 0 -150 0 50 0 0 0 25um Normal 0 C C
-T 0 -150 100 50 0 0 0 5V Normal 0 C C
-T 0 -150 -100 50 0 0 0 GND Normal 0 C C
-T 0 -150 300 50 0 0 0 NC Normal 0 C C
-T 0 -150 -200 50 0 0 0 RXD Normal 0 C C
-T 0 -150 -300 50 0 0 0 TXD Normal 0 C C
+T 0 -150 -100 50 0 0 0 5V Normal 0 C C
+T 0 -150 100 50 0 0 0 GND Normal 0 C C
+T 0 -150 -300 50 0 0 0 NC Normal 0 C C
+T 0 -150 200 50 0 0 0 RXD Normal 0 C C
+T 0 -150 300 50 0 0 0 TXD Normal 0 C C
 S 0 350 -300 -350 0 1 0 f
 X Pin_1 1 150 300 150 L 50 50 1 1 P
 X Pin_2 2 150 200 150 L 50 50 1 1 P
