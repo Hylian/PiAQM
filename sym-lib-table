@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name conn_sds011)(type Legacy)(uri ${KIPRJMOD}/conn_sds011.lib)(options "")(descr ""))
   (lib (name conn_hpma115s0)(type Legacy)(uri ${KIPRJMOD}/conn_hpma115s0.lib)(options "")(descr ""))
+  (lib (name cat24c32)(type Legacy)(uri ${KIPRJMOD}/cat24c32.lib)(options "")(descr ""))
 )
